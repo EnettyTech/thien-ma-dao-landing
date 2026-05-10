@@ -47,7 +47,7 @@ export function Hero() {
             </div>
 
             <h1 className="font-headline text-[2.125rem] font-bold leading-[1.1] tracking-tight text-primary text-glow sm:text-5xl md:text-6xl">
-              Thiên Ma Đạo
+              Thiên Ma Đạo - Beta
               <br />
               <span className="text-[1.35rem] font-semibold text-tertiary sm:text-3xl md:text-[2rem]">
                 Khởi đầu tiên duyên
@@ -56,8 +56,7 @@ export function Hero() {
 
             <p className="max-w-md text-sm leading-relaxed text-on-surface-variant md:text-base">
               Hành trình tu chân huyền ảo: hóa thân tiên nhân lỗi lạc, vượt kiếp
-              nạn để tiến tới cảnh giới trường sinh — idle, bang chiến, bảo vật
-              như mô tả trên Google Play.
+              nạn để tiến tới cảnh giới trường sinh.
             </p>
 
             <div className="flex flex-col gap-5 md:gap-6">

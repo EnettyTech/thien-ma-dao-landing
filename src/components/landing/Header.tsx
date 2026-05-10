@@ -27,7 +27,7 @@ export function Header() {
               className="size-8 shrink-0 rounded-full object-cover"
               sizes="32px"
             />
-            <span className="text-2xl font-bold">Thiên Ma Đạo</span>
+            <span className="text-2xl font-bold">Thiên Ma Đạo - Beta</span>
           </Link>
           <div className="hidden gap-6 md:flex">
             {nav.map((item) => (
@@ -72,14 +72,14 @@ export function Header() {
             </div>
           </details>
 
-          <a
+          {/* <a
             href={PLAY_STORE_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="celestial-button shrink-0 rounded-lg px-3 py-2 text-xs font-semibold uppercase tracking-wide text-secondary transition active:scale-95 active:opacity-90 md:px-6 md:text-sm"
           >
             Tải game
-          </a>
+          </a> */}
         </div>
       </div>
     </nav>

@@ -6,11 +6,10 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-[1280px] grid-cols-1 items-start gap-8 px-5 py-12 md:grid-cols-3 md:px-12 lg:gap-10 lg:px-20">
         <div className="flex flex-col gap-4">
           <span className="font-headline text-3xl font-semibold text-primary">
-            Thiên Ma Đạo
+            Thiên Ma Đạo - Beta
           </span>
           <p className="text-sm leading-relaxed text-on-surface-variant">
-            RPG tu tiên trên mobile — phá cảnh, song tu, bang chiến và idle thu
-            linh khí. Thông tin chi tiết trên cửa hàng Google Play.
+            Tu tiên trên mobile — phá cảnh, song tu, bang chiến.
           </p>
         </div>
 
