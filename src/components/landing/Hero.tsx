@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import {
   APP_STORE_URL,
@@ -127,6 +128,18 @@ export function Hero() {
               </div>
 
               <div className="flex flex-wrap items-center gap-4 border-t border-outline-variant/40 pt-4 md:gap-6 md:border-0 md:pt-0">
+                <Link
+                  href="/huong-dan-tai-game"
+                  rel="noopener noreferrer"
+                  className="flex min-h-11 min-w-0 flex-1 basis-[140px] cursor-pointer items-center justify-center gap-2 rounded-lg text-on-surface-variant transition hover:bg-surface-container-low hover:text-primary sm:flex-initial sm:justify-start"
+                >
+                  <span className="material-symbols-outlined shrink-0 transition group-hover:scale-110">
+                    download_for_offline
+                  </span>
+                  <span className="text-sm font-semibold uppercase tracking-wide">
+                    Hướng dẫn tải game
+                  </span>
+                </Link>
                 <button
                   type="button"
                   className="flex min-h-11 min-w-0 flex-1 basis-[140px] cursor-pointer items-center justify-center gap-2 rounded-lg text-on-surface-variant transition hover:bg-surface-container-low hover:text-primary sm:flex-initial sm:justify-start"
