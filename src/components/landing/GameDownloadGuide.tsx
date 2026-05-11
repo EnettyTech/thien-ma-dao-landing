@@ -149,7 +149,7 @@ export function GameDownloadGuide() {
               </li>
               <li>
                 Sau khi tham gia thành công, mở{" "}
-                <ExternalLink href={PLAY_STORE_URL}>
+                <ExternalLink href={null}>
                   trang game trên Google Play
                 </ExternalLink>{" "}
                 và bấm <span className="font-medium text-on-surface">Cài đặt</span>.
