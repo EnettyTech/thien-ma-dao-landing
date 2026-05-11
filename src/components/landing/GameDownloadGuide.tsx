@@ -136,7 +136,7 @@ export function GameDownloadGuide() {
               </li>
               <li>
                 Mở trang tham gia thử nghiệm:{" "}
-                <ExternalLink href={PLAY_INTERNAL_TEST_URL}>
+                <ExternalLink href={""}>
                   Tham gia thử nghiệm trên Google Play
                 </ExternalLink>
                 .
@@ -150,7 +150,7 @@ export function GameDownloadGuide() {
               </li>
               <li>
                 Sau khi tham gia thành công, mở{" "}
-                <ExternalLink href={null}>
+                <ExternalLink href={""}>
                   trang game trên Google Play
                 </ExternalLink>{" "}
                 và bấm <span className="font-medium text-on-surface">Cài đặt</span>.
