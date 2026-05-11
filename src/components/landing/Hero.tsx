@@ -83,11 +83,11 @@ export function Hero() {
                     </div>
                   </div>
                 </a>
-                <a
-                  href={PLAY_STORE_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="celestial-button flex min-h-[42px] w-full items-center justify-center gap-2 rounded-lg px-4 py-2 transition hover:scale-[1.01] active:scale-[0.99] sm:w-auto sm:justify-start sm:min-h-0 sm:px-5 sm:py-2.5 sm:hover:scale-[1.02]"
+                <div
+                  // href={PLAY_STORE_URL}
+                  // target="_blank"
+                  // rel="noopener noreferrer"
+                  className="celestial-button-disabled flex min-h-[42px] w-full items-center justify-center gap-2 rounded-lg px-4 py-2 transition hover:scale-[1.01] active:scale-[0.99] sm:w-auto sm:justify-start sm:min-h-0 sm:px-5 sm:py-2.5 sm:hover:scale-[1.02]"
                 >
                   <span
                     className="material-symbols-outlined shrink-0 text-[20px] text-secondary"
@@ -103,7 +103,7 @@ export function Hero() {
                       Google Play
                     </div>
                   </div>
-                </a>
+                </div>
                 <a
                   href={APK_DOWNLOAD_URL}
                   target="_blank"
@@ -140,6 +140,7 @@ export function Hero() {
                     Hướng dẫn tải game
                   </span>
                 </Link>
+                <div className="hidden h-4 w-px bg-outline-variant sm:block" />
                 <button
                   type="button"
                   className="flex min-h-11 min-w-0 flex-1 basis-[140px] cursor-pointer items-center justify-center gap-2 rounded-lg text-on-surface-variant transition hover:bg-surface-container-low hover:text-primary sm:flex-initial sm:justify-start"
