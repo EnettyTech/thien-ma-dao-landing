@@ -24,6 +24,7 @@ function ExternalLink({
   href: string;
   children: React.ReactNode;
 }) {
+  if(!href) return <div className="font-semibold text-primary underline decoration-primary/30 underline-offset-2 transition hover:decoration-primary">{children}</div>
   return (
     <a
       href={href}
