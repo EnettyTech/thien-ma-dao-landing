@@ -10,7 +10,7 @@ export const PLAY_INTERNAL_TEST_URL =
 export const APP_STORE_URL = "https://testflight.apple.com/join/yE9ra9ut";
 
 export const APK_DOWNLOAD_URL =
-  "https://drive.google.com/file/d/1cQAL5o1uNdJpkjXGq7KAA4INjH5cKHu-/view?usp=drive_link";
+  "https://drive.google.com/drive/folders/1Prz-Kw82OReGYYuzuo6XUZFs19gqJmL3";
 
 /** Hero background — file in /public */
 export const BANNER_IMAGE = "/banner.webp";
