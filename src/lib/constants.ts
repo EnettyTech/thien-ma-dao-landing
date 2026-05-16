@@ -2,8 +2,8 @@
 export const PLAY_STORE_URL =
   "https://play.google.com/store/apps/details?id=com.thienmadao.tutien";
 
-/** Opt-in page for Play internal / closed testing (same package as PLAY_STORE_URL) */
-export const PLAY_INTERNAL_TEST_URL =
+/** Opt-in page for Play open testing (beta — same package as PLAY_STORE_URL) */
+export const PLAY_OPEN_TEST_URL =
   "https://play.google.com/apps/testing/com.thienmadao.tutien";
 
 /** Placeholder — replace when iOS build is available */

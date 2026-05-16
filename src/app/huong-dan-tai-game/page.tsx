@@ -8,7 +8,7 @@ import { SiteFooter } from "@/components/landing/SiteFooter";
 export const metadata: Metadata = {
   title: "Hướng dẫn tải game",
   description:
-    "Hướng dẫn tải Thiên Ma Đạo: iOS (TestFlight), Android (thử nghiệm nội bộ Google Play), hoặc cài từ file APK.",
+    "Hướng dẫn tải Thiên Ma Đạo: iOS (TestFlight), Android (open testing Google Play), hoặc cài từ file APK.",
 };
 
 export default function GameDownloadGuidePage() {

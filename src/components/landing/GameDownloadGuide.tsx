@@ -5,7 +5,7 @@ import { useState } from "react";
 import {
   APK_DOWNLOAD_URL,
   APP_STORE_URL,
-  PLAY_INTERNAL_TEST_URL,
+  PLAY_OPEN_TEST_URL,
   PLAY_STORE_URL,
 } from "@/lib/constants";
 
@@ -123,21 +123,22 @@ export function GameDownloadGuide() {
             className="space-y-4 text-on-surface"
           >
             <h2 className="font-headline text-xl font-bold text-primary md:text-2xl">
-              Tham gia thử nghiệm nội bộ (Google Play)
+              Tham gia open testing (Google Play)
             </h2>
             <p className="text-sm leading-relaxed text-on-surface-variant md:text-base">
-              Internal testing trên Google Play cho phép cài game qua Play Store
-              sau khi tài khoản Google của bạn được thêm vào danh sách tester.
+              Open testing là bản beta công khai trên Google Play: bất kỳ ai có
+              liên kết tham gia đều có thể đăng ký và cài game qua Play Store (theo
+              điều kiện của Google và nhà phát hành).
             </p>
             <ol className="list-decimal space-y-3 pl-5 text-sm leading-relaxed md:text-base">
               <li>
-                Đảm bảo bạn đăng nhập Google Play bằng đúng Gmail mà nhà phát
-                hành đã thêm vào nhóm thử nghiệm.
+                Trên điện thoại, mở Google Play và đăng nhập bằng tài khoản Google
+                bạn muốn dùng để chơi bản beta.
               </li>
               <li>
-                Mở trang tham gia thử nghiệm:{" "}
-                <ExternalLink href={""}>
-                  Tham gia thử nghiệm trên Google Play
+                Mở trang tham gia open testing:{" "}
+                <ExternalLink href={PLAY_OPEN_TEST_URL}>
+                  Tham gia open testing trên Google Play
                 </ExternalLink>
                 .
               </li>
@@ -146,7 +147,8 @@ export function GameDownloadGuide() {
                 <span className="font-medium text-on-surface">
                   Trở thành người thử nghiệm
                 </span>{" "}
-                (hoặc tương đương) để ghi nhận tài khoản của bạn.
+                (hoặc tương đương) để ghi nhận tài khoản của bạn vào chương trình
+                beta.
               </li>
               <li>
                 Sau khi tham gia thành công, mở{" "}
@@ -156,8 +158,8 @@ export function GameDownloadGuide() {
                 và bấm <span className="font-medium text-on-surface">Cài đặt</span>.
               </li>
               <li>
-                Nếu chưa thấy nút cài, đợi vài phút, khởi động lại Play Store hoặc
-                kiểm tra lại Gmail đã đúng chưa.
+                Nếu chưa thấy nút cài hoặc vẫn là bản chính thức, đợi vài phút,
+                khởi động lại Play Store hoặc kiểm tra đã bấm tham gia beta chưa.
               </li>
             </ol>
           </section>
